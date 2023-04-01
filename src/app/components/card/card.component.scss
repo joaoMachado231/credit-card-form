@@ -1,0 +1,43 @@
+@import "../../../styles.scss";
+
+.card__container {
+  background-color: $purple-dark;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px 24px 24px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  background: #111827;
+  border: 1px solid $gray-700;
+  box-shadow: 0px 4px 24px $gray-900;
+  border-radius: 16px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    color: $gray-400;
+
+    &--name {
+      font-size: 14px;
+    }
+
+    &--due-date {
+      letter-spacing: 6px;
+    }
+  }
+}

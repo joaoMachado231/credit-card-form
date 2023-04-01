@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;900&display=swap");
+
+$background-default: #1e1e1e;
+$background-input: #111827;
+
+$withe: #f3f4f6;
+
+$purple-default: #9333ea;
+$purple-light: #a855f7;
+$purple-dark: #9333ea;
+
+$gray-50: #f9fafb;
+$gray-100: #f3f4f6;
+$gray-200: #e5e7eb;
+$gray-400: #9ca3af;
+$gray-700: #374151;
+$gray-800: #1f2937;
+$gray-900: #111827;
+
+html,
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", "sans-serif";
+}

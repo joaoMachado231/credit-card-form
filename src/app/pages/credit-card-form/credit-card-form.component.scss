@@ -1,0 +1,27 @@
+@import "../../../styles.scss";
+
+.credit-card__container {
+  background-color: $gray-800;
+  width: 46rem;
+  padding: 32px;
+
+  &--data {
+    display: flex;
+
+    &--container {
+      margin-bottom: 32px;
+    }
+
+    &--form {
+      margin-right: 64px;
+    }
+
+    &--card {
+      width: 100%;
+    }
+  }
+
+  &--form {
+    margin-right: 64px;
+  }
+}

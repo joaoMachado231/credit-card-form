@@ -23,12 +23,6 @@
     flex-direction: column;
     margin-bottom: 24px;
 
-    &--cvv {
-      display: flex;
-      flex-direction: column;
-      margin-left: 16px;
-    }
-
     &-label {
       font-weight: 600;
       font-size: 14px;
@@ -44,9 +38,14 @@
       border-radius: 4px;
       border: 1px solid $gray-700;
       color: $gray-100;
+      outline: none;
 
       &::placeholder {
         color: $gray-400;
+      }
+
+      &:focus {
+        border: 1.5px solid $purple-default;
       }
     }
   }
